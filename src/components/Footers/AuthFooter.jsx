@@ -39,6 +39,7 @@ const Login = () => {
                 <NavItem>
                   <NavLink href="/contact" className="text-white">
                     Contacto
+                    
                   </NavLink>
                 </NavItem>
               </Nav>
