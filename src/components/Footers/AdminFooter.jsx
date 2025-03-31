@@ -1,4 +1,4 @@
-// reactstrap components
+// reactstrap components daf
 import { Row, Col, Nav, NavItem, NavLink } from "reactstrap";
 
 const Footer = () => {
