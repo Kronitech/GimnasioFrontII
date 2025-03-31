@@ -12,8 +12,7 @@ const Footer = () => {
               className="font-weight-bold ml-1"
               href=""
               rel="noopener noreferrer"
-              target="_blank"
-            >
+              target="_blank">
               MAS FITNESS
             </a>
           </div>
