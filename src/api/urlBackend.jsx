@@ -1,7 +1,5 @@
-const urlBackend="https://gimnasioapi-production.up.railway.app/"
-//"https://gimnasioapi-production.up.railway.app/"
-//"https://gimnasioapi-production.up.railway.app/"
-//"http://localhost:8080/"
+const urlBackend="https://gimnasio-api-yeiner-production.up.railway.app/"
+//gimnasio-api-yeiner-production.up.railway.app
 
 function getAuthorizationHeaders() {
     const token = localStorage.getItem("token");
