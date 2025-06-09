@@ -1,4 +1,4 @@
-// reactstrap components daf
+// reactstrap components
 import { Row, Col, Nav, NavItem, NavLink } from "reactstrap";
 
 const Footer = () => {
@@ -14,7 +14,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              MAS FITNESS
+             MAS FITNESS
             </a>
           </div>
         </Col>

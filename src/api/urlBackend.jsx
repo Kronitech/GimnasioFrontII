@@ -1,7 +1,6 @@
 const urlBackend="https://backgimnasio-production.up.railway.app/"
-//gimnasio-api-yeiner-production.up.railway.app/"
-//gimnasio-api-yeiner-production.up.railway.app
 
+//"http://localhost:8080/"
 
 function getAuthorizationHeaders() {
     const token = localStorage.getItem("token");
@@ -11,7 +10,6 @@ function getAuthorizationHeaders() {
         "Content-type": "application/json",
     };
 }
-
 async function makeRequest(endpoint, method = 'GET', data = null) {
     const url = urlBackend + endpoint;
     const headers = getAuthorizationHeaders();
